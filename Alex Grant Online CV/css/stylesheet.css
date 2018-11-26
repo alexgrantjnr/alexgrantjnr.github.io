@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #545E6C;
+  background: #f5f5f5;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ /* Nav bar */
+.navbar-inverse
+{
+	background-color: green;
+	text-align: center;
+	position: fixed; 
+	width:1500px;
+    margin: auto;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: green;
+}
+
+/* Nav bar end*/
+
+div.container-fluid
+{
+	width:1500px;
+    margin: auto;
+    
+}
+
+#aboutMe, #education, #projects, #workExp, header{
+		margin-left: 1em; 
+		padding-top: 5em;
+	}
+	  
+	header {
+		color: green;
+	}
+	  
+	header p{
+		color: black;
+		padding: 1em 10em 0em 10em;
+	}
+  
+	#profile-pickture{
+
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+   		width: 20%;
+   		height: 60%
+	}
+
+	#pic-name
+	{
+		margin-left: 2.5em;
+	}
+
+	.img-rounded {
+    border-radius: 30px;
+	}
+
+
+	/* btns */
+	.btn-success {
+    color: #fff;
+    margin-left: .5em;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+	}
+
+	#welcomeButtons {
+		
+		display: table;
+		margin: 0 auto;
+	}
+	/* btns end*/
+	
