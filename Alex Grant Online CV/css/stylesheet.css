@@ -209,29 +209,29 @@ form {
 /*Images*/
 img.ITT
 {
-	height: 200%;
-    width: 40%;
+	height: 200px;
+    width: 400px;
     margin-bottom: 20px
 }
 
 img.crumlincollege
 {
-	height: 200%;
-    width: 40%;
+	height: 200px;
+    width: 400px;
     margin-bottom: 20px
 }
 
 img.digitalhub
 {
-	height: 200%;
-    width: 40%;
+	height: 200px;
+    width: 400px;
     margin-bottom: 20px
 }
 
 img.scoileoin
 {
-	height: 200%;
-    width: 40%;
+	height: 200px;
+    width: 400px;
     margin-bottom: 20px
 }
 /*Images end*/
@@ -243,9 +243,9 @@ img.scoileoin
 
 #education-Imgs
 {
-
 	float: left;
 	margin: auto;
+	width: 50%;
 
 }
 
