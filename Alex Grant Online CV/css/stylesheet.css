@@ -211,34 +211,65 @@ img.ITT
 {
 	height: 200px;
     width: 400px;
-    margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 img.crumlincollege
 {
 	height: 200px;
     width: 400px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 img.digitalhub
 {
 	height: 200px;
     width: 400px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 img.scoileoin
 {
 	height: 200px;
     width: 400px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+}
+
+
+img.ITTMap
+{
+	height: 200px;
+    width: 400px;
+	margin-bottom: 20px;
+}
+
+img.crumlincollegeMap
+{
+	height: 200px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+img.digitalhubMap
+{
+	height: 200px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+img.ScoilEoinMap
+{
+	height: 200px;
+    width: 400px;
+    margin-bottom: 20px;
 }
 /*Images end*/
 
 .Education-address
 {
 	float: left;
+	margin: auto;
+	width: 50%;
 }
 
 #education-Imgs
@@ -246,11 +277,4 @@ img.scoileoin
 	float: left;
 	margin: auto;
 	width: 50%;
-
-}
-
-#education-Imgs li
-{
-
-	
 }
