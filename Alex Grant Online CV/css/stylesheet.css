@@ -1,4 +1,5 @@
-body {
+body 
+{
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
   background: white;
@@ -11,21 +12,29 @@ body {
 .navbar-inverse
 {
 	display: block;
-	background-color: green;
+	background-color: #4CAF50;
 	text-align: center;
 	position: fixed; 
 	width:1000px;
     margin: auto;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-brand 
+{
+    background-color: #4CAF50;
     color: white;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+.navbar-inverse .navbar-nav>li>a 
+{
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover
+{
     display: block;
     color: #fff;
-    background-color: green;
+    background-color: #4CAF50;
 }
 
 /* Nav bar end*/
@@ -37,81 +46,66 @@ div.container-fluid
     margin-right: auto;
 }
 
-#aboutMe, #education, #projects, #workExp, header{
-		margin-left: 1em; 
-		padding-top: 5em;
-	}
+#aboutMe, #education, #projects, #workExp, header
+{
+	margin-left: 1em; 
+	padding-top: 5em;
+}
 	  
-	header {
-		color: green;
-	}
+header 
+{
+	color: green;
+}
 	  
-	header p{
-		color: black;
-		padding: 1em 10em 0em 10em;
-	}
+header p
+{
+	color: black;
+	padding: 1em 10em 0em 10em;
+}
   
-	#profile-pickture{
-		margin-top: 40px;
-		display: block;
-    	margin-left: auto;
-    	margin-right: auto;
-   		width: 20%;
-   		height: 60%
-	}
+#profile-pickture
+{
+	margin-top: 40px;
+	display: block;
+    margin-left: 300px;
+    margin-right: auto;
+   	width: 20%;
+   	height: 40%;
+}
 
-	#pic-name
-	{
-		margin-left: 2.5em;
-	}
+#pic-name
+{
+	width: 100%;
+	margin-left: 10em;
 
-	.img-rounded {
+}
+
+.img-rounded 
+{
     border-radius: 30px;
+    width: 100%;
+}
 	}
 
 
 	/* btns */
-	.btn-success {
+.btn-success 
+{
     color: #fff;
     margin-left: .5em;
     background-color: #5cb85c;
     border-color: #4cae4c;
-	}
+}
 
-	#welcomeButtons {
+#welcomeButtons 
+{
 		
-		display: table;
-		margin: 0 auto;
-	}
+	display: table;
+	margin: 0 auto;
+}
 	/* btns end*/
 
-	HTML Demo: <article> Reset
-HTML   CSS
 
-.forecast {
-    margin: 0;
-    padding: .3rem;
-    background-color: gray;
-    font: 1rem 'Fira Sans', sans-serif;
-}
-​
-.forecast > h1,
-.day-forecast {
-    margin: .5rem;
-    padding: .3rem;
-    font-size: 1.2rem;
-}
-​
-.day-forecast {
-    background: right/contain content-box border-box no-repeat
-        url('/media/examples/rain.svg') white;
-}
-​
-.day-forecast > h2,
-.day-forecast > p {
-    margin: .2rem;
-
-}
 
 article 
 {
@@ -127,55 +121,64 @@ article p
 
 }
 
-ARTICLE#Article_1 {
+ARTICLE#Article_1 
+{
 color: black;
 float: left;
 font-family:Trajan Pro;
 }
 
-ARTICLE#Article_2 {
-color: black;
-float: left;
-margin-left: 80px;
-font-family:Trajan Pro;
+ARTICLE#Article_2 
+{
+	color: black;
+	float: left;
+	margin-left: 80px;
+	font-family:Trajan Pro;
 }
 
-ARTICLE#Article_3 {
-color: black;
-float: left;
-font-family:Trajan Pro;
+ARTICLE#Article_3 
+{
+	color: black;
+	float: left;
+	font-family:Trajan Pro;
 }
 
-ARTICLE#Article_4 {
-color: black;
-float: left;
-margin-left: 80px;
-font-family:Trajan Pro;
+ARTICLE#Article_4 
+{
+	color: black;
+	float: left;
+	margin-left: 80px;
+	font-family:Trajan Pro;
 
 }
  /*contact page*/
 
-h1,h2,h3 {	
+h1,h2,h3 
+{	
 	text-transform: uppercase;
 	letter-spacing:1px;
 	padding: 10px;
 }
 
 p{
-	margin:0 0 25px;
 	font-size:12px;
 	line-height:1.6em;
 }
-a{
+
+a
+{
 	color: white;
 }
-a:hover,a:focus{
+
+a:hover,a:focus
+{
 	text-decoration:none;
 	color:#26a5d3;
 }
 
 /*Contact page*/
-#contact {
+#contact 
+{
 
     background: #333333;
     color: #f4f4f4;
@@ -183,28 +186,26 @@ a:hover,a:focus{
 
 }
 
-textarea.form-control{
+textarea.form-control
+{
     height:100px;
     
 }
 
-form {
+form 
+{
     display: block;
     margin-right: 70px;
 }
 
-
-
 /*Contact page end*/
 
-#success_message{ display: none;}
-
-
 	/*Footer*/
-	.page-footer
-	{
-		background-color: black;
-	}
+footer
+{
+	background-color: black;
+	width: 1000px;
+}
 
 /*Images*/
 img.ITT
@@ -265,6 +266,7 @@ img.ScoilEoinMap
 }
 /*Images end*/
 
+/*Education section*/
 .Education-address
 {
 	float: left;
@@ -278,3 +280,49 @@ img.ScoilEoinMap
 	margin: auto;
 	width: 50%;
 }
+
+#education-text
+{
+	text-align: center;
+	margin-right: 100px;
+}
+
+/*Education section End*/
+
+/*Project tables*/
+
+.tab-content>.active 
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 971px;
+    margin-top: 1em
+}
+
+.tab-content>.active  td, .tab-content>.active  th 
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tab-content>.active  tr:nth-child(even)
+{
+	background-color: #f2f2f2;
+}
+
+.tab-content>.active  tr:hover 
+{
+	background-color: #ddd;
+}
+
+.tab-content>.active  th 
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
