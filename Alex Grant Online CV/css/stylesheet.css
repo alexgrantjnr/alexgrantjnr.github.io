@@ -18,6 +18,7 @@ body
 	text-align: center;
 	position: fixed; 
 	z-index: 1;
+	margin-bottom: 30px;
 }
 
 .navbar-inverse .navbar-brand 
@@ -88,19 +89,20 @@ header p
     margin-left: 300px;
     margin-right: auto;
    	width: 40%;
-   	height: 60%;
+   	height: 20%;
 }
 
 #pic-name
 {
 	width: 100%;
 	margin-right: auto;
-	margin-left: 150px;
+	margin-left: 270px;
 }
 
 .img-rounded 
 {
-    width: 100%;
+    width: 60%;
+     margin-left: 150px;
 }
 	
 
@@ -109,7 +111,7 @@ header p
 .btn-success 
 {
     color: #fff;
-	margin-left: 20px;
+	margin-left: 100px;
 
     background-color: #5cb85c;
     border-color: #4cae4c;
@@ -173,6 +175,7 @@ ARTICLE#Article_4
 
 h1,h2,h3 
 {	
+	text-align: center;
 	text-transform: uppercase;
 	letter-spacing:1px;
 	padding: 10px;
@@ -201,7 +204,7 @@ a:hover,a:focus
     background: #333333;
     color: #f4f4f4;
     padding-bottom: 80px;
-
+    padding-top: 80px;
 }
 
 textarea.form-control
@@ -219,10 +222,52 @@ form
 /*Contact page end*/
 
 	/*Footer*/
-footer
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    background: #222222;
+    padding: 40px 0px;
+    color: #FFF;
+    clear: both;
+}
+
+.footer ul{
+    padding:0px;    
+}
+
+.footer ul li {
+    margin: 10px;
+}
+
+.footer ul li a {
+    color: #FFF;
+    text-decoration:none;
+}
+
+.footer span {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing:3px;
+}
+
+.icons {
+    margin: 0 auto;
+    display: table;
+    padding-top: 20px;
+}
+
+.icons .fa {
+    font-size: 30px;
+    padding: 10px;
+    color: #adadad;
+}
+img.logo
 {
-	background-color: black;
-	width: 100%;
+	width: 50%
 }
 
 /*Images*/
@@ -242,7 +287,7 @@ img.ITT
 
 img.ITTMap
 {
-	width: 400px;
+	width: 700px;
 	float: right;
 }
 
@@ -279,17 +324,69 @@ img.scoileoin
 
 img.scoileoinMap
 {
-	width: 400px;
+	width: 500px;
 	float: left;
 }
 
 
+.table {
+	margin-left: 250px;
+    width: 80%;
 
+    margin-bottom: 20px;
+}
 
+.education
+{
 
+	width: 100%; //fallback
+   width: 100vw;
+	clear: both;
+	margin-bottom: 100px;
+}
 
+#education-text
+{
+	
+	text-align: center;
+}
 
+/*Font awsome*/
 
+.fa-tv
+{
+	margin-bottom: 40px;
+}
+
+.fa-futbol
+{
+	margin-bottom: 40px;
+}
+
+.fa-headphones
+{
+	margin-bottom: 40px;
+}
+
+.fa-desktop
+{
+	margin-bottom: 40px;
+}
+
+.fa-film
+{
+	margin-bottom: 40px;
+}
+
+.fa-dumbbell
+{
+	margin-bottom: 40px;
+}
+
+#intrests .col-md-3
+{
+	 margin-left: 300px;
+}
 
 /*Education section End*/
 
@@ -332,9 +429,90 @@ img.scoileoinMap
 /*Work ex*/
 #workExp
 {
-
-	width: 1000px;
 	margin-bottom: 40px;
 	height: 100vh;
 }
 /*Work ex end*/
+
+/*Skills bars*/
+
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+
+#skillsbar{
+    width: 80%;
+    margin-left: 100px;
+}
+/*Skills bars end*/
