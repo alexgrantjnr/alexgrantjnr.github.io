@@ -6,6 +6,7 @@ body
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
  /* Nav bar */
@@ -16,7 +17,8 @@ body
 	text-align: center;
 	position: fixed; 
 	width:1000px;
-    margin: auto;
+	margin: auto;
+	z-index: 1;
 }
 
 .navbar-inverse .navbar-brand 
@@ -37,6 +39,22 @@ body
     background-color: #4CAF50;
 }
 
+/*Result nav bar*/
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #4CAF50;
+}
+
+.nav-pills {
+    width: 980px;
+}
+
+.nav-pills>li {
+    float: left;
+}
+
 /* Nav bar end*/
 
 div.container-fluid
@@ -55,6 +73,8 @@ div.container-fluid
 header 
 {
 	color: green;
+	height: 100vh;
+	
 }
 	  
 header p
@@ -65,34 +85,35 @@ header p
   
 #profile-pickture
 {
+	
 	margin-top: 40px;
 	display: block;
     margin-left: 300px;
     margin-right: auto;
-   	width: 20%;
-   	height: 40%;
+   	width: 40%;
+   	height: 60%;
 }
 
 #pic-name
 {
 	width: 100%;
-	margin-left: 10em;
-
+	margin-right: auto;
+	margin-left: 150px;
 }
 
 .img-rounded 
 {
-    border-radius: 30px;
     width: 100%;
 }
-	}
+	
 
 
 	/* btns */
 .btn-success 
 {
     color: #fff;
-    margin-left: .5em;
+	margin-left: 20px;
+
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
@@ -289,7 +310,7 @@ img.ScoilEoinMap
 
 /*Education section End*/
 
-/*Project tables*/
+/*results tables*/
 
 .tab-content>.active 
 {
@@ -323,6 +344,14 @@ img.ScoilEoinMap
     background-color: #4CAF50;
     color: white;
 }
+/*results tables end*/
 
+/*Work ex*/
+#workExp
+{
 
-
+	width: 1000px;
+	margin-bottom: 40px;
+	height: 100vh;
+}
+/*Work ex end*/
