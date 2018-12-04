@@ -122,6 +122,14 @@ header p
 	display: table;
 	margin: 0 auto;
 }
+
+.btn-link {
+    color: #fff;
+    margin-left: 100px;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+     border-radius: 15px 50px;
+}
 	/* btns end*/
 
 
