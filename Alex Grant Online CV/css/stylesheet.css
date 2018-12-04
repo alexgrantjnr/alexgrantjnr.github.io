@@ -1,6 +1,6 @@
 body 
 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Apple" Chancery, cursive; 
   color: #545E6C;
   background: white;
   font-size: 14px;
@@ -62,10 +62,9 @@ div.container-fluid
     margin-right: auto;
 }
 
-#aboutMe, #education, #projects, #workExp, header
+#aboutMe
 {
-	margin-left: 1em; 
-	padding-top: 5em;
+	margin-bottom: 10em;
 }
 	  
 header 
@@ -137,7 +136,7 @@ article
 
 article p
 {
-	font-size: 12px;
+	font-size: 14px;
 	padding-left: 1em;
 
 }
@@ -175,14 +174,16 @@ ARTICLE#Article_4
 
 h1,h2,h3 
 {	
+	font-family: "Arial Black", Gadget, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing:1px;
 	padding: 10px;
 }
 
-p{
-	font-size:12px;
+p {
+	font-family: "Courier New", Courier, monospace;
+	font-size:16px;
 	line-height:1.6em;
 }
 
@@ -201,8 +202,8 @@ a:hover,a:focus
 #contact 
 {
 
-    background: #333333;
-    color: #f4f4f4;
+    background: #f5f5f5;
+    color: #4CAF50;
     padding-bottom: 80px;
     padding-top: 80px;
 }
@@ -271,85 +272,63 @@ img.logo
 }
 
 /*Images*/
-
-/*Images end*/
-
-/*Education section*/
-
-
-
-
-/* Clearfix (clear floats) */
 img.ITT
 {
 	width: 400px;
-}
-
-img.ITTMap
-{
-	width: 700px;
-	float: right;
+	float: left;
+	margin-left: 100px;
 }
 
 img.crumlincollege
 {
 	width: 400px;
 	float: left;
+	margin-left: 100px;
+	margin-top: 10px;
 }
-
-img.crumlincollegeMap
-{
-	width: 400px;
-	float: left;
-}
-
 
 img.digitalhub
 {
 	width: 400px;
 	float: left;
+	margin-left: 100px;
 }
 
-img.digitalhubMap
-{
-	width: 400px;
-	float: left;
-}
+
 
 img.scoileoin
 {
 	width: 400px;
 	float: left;
+	margin-left: 100px;
 }
 
-img.scoileoinMap
+img.Map
 {
 	width: 500px;
 	float: left;
+	margin-left: 100px;
 }
+/*Images end*/
 
+/*Education section*/
 
-.table {
-	margin-left: 250px;
-    width: 80%;
-
-    margin-bottom: 20px;
-}
-
-.education
+#Education
 {
 
 	width: 100%; //fallback
-   width: 100vw;
+    width: 100vw;
 	clear: both;
 	margin-bottom: 100px;
+	margin-bottom: 10em;
 }
 
 #education-text
 {
-	
 	text-align: center;
 }
+
+/*Education section End*/
 
 /*Font awsome*/
 
@@ -383,14 +362,21 @@ img.scoileoinMap
 	margin-bottom: 40px;
 }
 
-#intrests .col-md-3
-{
-	 margin-left: 300px;
-}
 
-/*Education section End*/
+
 
 /*results tables*/
+
+#results
+{
+	margin-bottom: 10em;
+}
+.table {
+	margin-left: 250px;
+    width: 80%;
+
+    margin-bottom: 20px;
+}
 
 .tab-content>.active 
 {
@@ -430,7 +416,18 @@ img.scoileoinMap
 #workExp
 {
 	margin-bottom: 40px;
-	height: 100vh;
+	clear: both;
+	margin-bottom: 10em;
+}
+
+#workExp h3
+{
+	margin: 5px;
+}
+
+.row-wexp {
+	margin-left: 70px;
+	margin-right: 70px;
 }
 /*Work ex end*/
 
@@ -510,9 +507,162 @@ width:110px;
 	color:rgba(0, 0, 0, 0.4);
 }
 
-
+#skills
+{
+	clear: both;
+	margin-bottom: 10em;
+}
 #skillsbar{
     width: 80%;
     margin-left: 100px;
 }
 /*Skills bars end*/
+
+/*Intrests*/
+#intrests .col-md-3
+{
+	 margin-left: 300px;
+}
+
+#intrests
+{
+	 margin-bottom: 10em;
+	 clear: both;
+}
+/*Intrests End*/
+
+/*Overlay img*/
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
