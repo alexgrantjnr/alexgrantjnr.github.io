@@ -130,6 +130,12 @@ header p
     border-color: #4cae4c;
      border-radius: 15px 50px;
 }
+
+.btn-link:focus, .btn-link:hover {
+    color: #fff;
+    text-decoration: underline;
+    background-color: #5cb85c;
+}
 	/* btns end*/
 
 
