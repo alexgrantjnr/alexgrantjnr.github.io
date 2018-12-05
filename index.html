@@ -46,565 +46,548 @@
 				</div>
 			</div>
 		</nav>
-
 		<header>
 
 			<div id="profile-pickture">
 				<img src="img/welcome.png" class="img-rounded" alt="Cinque Terre">
 				<h4 id="pic-name">Alex Grant</h4>
 				<div id="welcomeButtons">
-					<button type="button" class="btn btn-success">Download my CV</button>&nbsp;&nbsp;&nbsp;
+					<button type="button" class="btn btn-success" onclick="window.open('AlexGrantCV.docx')">Download my CV</button>&nbsp;&nbsp;&nbsp;
 				</div>
 			</div>
 		</header>
 
-		<div id="aboutMe">
-			<h1>About Me</h1>
-			<article class="forecast">
+		<div class="container text-center" id="aboutMe">
+			<h1 class="text-center">About Me</h1>
+			<div class="row">
+				<div class="col-md-6">
 
+					<h4 class="sub-heading">At this point in time </h4>
+					<p>I am currently attending my 4th year in college, at Intitule Technology Tallaght studying computer science.
+						I have developed numerous programs in college using NetBeans, SQL Developer, Play Framework, Rational Rhapsody
+						R Studios, Visual Studios, Git Hub, Intelij IDE, Notepad++ and Microsoft Office. I enjoy learning to use new
+						software, and have been working within teams most of my life in sports and in education, not only can I work
+						in a team but on my own using my initiative. I am calm, patient and reliable person and love a challenge.</p>
 
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<article id="Article_1">
-								<h4>At this point in time </h4>
-								<p>I am currently attending my 4th year in college, at Intitule Technology Tallaght studying computer science.
-									I have developed numerous programs in college using NetBeans, SQL Developer, Play Framework, Rational Rhapsody
-									R Studios, Visual Studios, Git Hub, Intelij IDE, Notepad++ and Microsoft Office. I enjoy learning to use new
-									software, and have been working within teams most of my life in sports and in education, not only can I work
-									in a team but on my own using my initiative. I am calm, patient and reliable person and love a challenge.</p>
-							</article>
+				</div>
+
+				<div class="col-md-6">
+					<h4 class="sub-heading">Crumlin College</h4>
+					<p>The first step was a FAS course to get young adults back into education at this time i was unenployeed and I
+						have not been in education in a number of years leading up to this point this course was the building blocks
+						to my current success, this was another two year course with nine subjects in total over the two years the
+						modules included. Animation, Editing for TV and Film, Communications, Music Technology, Radio Program
+						Production, computer Literacy, Video Expression, and Personal Effectiveness.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
+
+					<h4 class="sub-heading">Digital Hub</h4>
+					<p>Before I attended ITT, I studied Information Technology in Crumlin College completing modules such as,
+						System Maintenance, Relational Database, Object orientated Programming, Windows Programming, Data
+						Communications, Networks, Web Authoring, Database Methods, Computer Architecture and systems, and
+						Communications. This was a big challenge for me, as I have never studied any high-level computer programming
+						before. It was not long after the first year in Crumlin College that I realized that I could possibly move
+						forward as a computer programmer and have a start a career. This was the second stage on my path to Institute
+						of Technology Tallaght.</p>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<h4 class="sub-heading">Digital Hub</h4>
+					<p>I enjoyed this course and the two main subjects I liked was Radio Program Production and Animation. In the
+						course, we had to be able to create an hour-long set for live radio for the Digital Hub 94.3 FM radio station.
+						My job was the sports section I would give the listeners a breakdown of the games that have been played, live
+						scores and up and coming matches. For my animation project, I created an animation rugby team lip syncing
+						Irelands Call anthem. This course is really, what got me on the path to where I am now.</p>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="Education">
+		<ul style="list-style: none;">
+			<h1>Education</h1>
+			<div id="education-text">
+				<h4>Institute Technology Tallaght </h4>
+				<h5>2015 - 2019</h5>
+				<p>Bachelor of Science (Honours)</p>
+				<p>B in Computing with Information </p>
+				<p>Technology Management</p>
+			</div>
+
+			<div class="row">
+				<div class="edImages">
+					<li><img class="ITT" src="img/ITT.png" alt="IT Tallaght" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+						</a></li>
+				</div>
+
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+						<div class="mySlides">
+							<div class="numbertext">1</div>
+							<img src="img/ITTCert.png" style="width:100%">
 						</div>
 
-						<div class="col">
-							<article id="Article_2">
-								<h4>Crumlin College</h4>
-								<p>The first step was a FAS course to get young adults back into education at this time i was unenployeed and I
-									have not been in education in a number of years leading up to this point this course was the building blocks
-									to my current success, this was another two year course with nine subjects in total over the two years the
-									modules included. Animation, Editing for TV and Film, Communications, Music Technology, Radio Program
-									Production, computer Literacy, Video Expression, and Personal Effectiveness.</p>
-							</article>
-						</div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-						<div class="col">
-							<article id="Article_3">
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-edImages">
+					<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937"
+						 target="_blank"><img class="Map" src="img/ITTMap.png" alt="IT Tallaght"></a></li>
+				</div>
+			</div>
+
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header" id="headingTwo">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+							 aria-controls="collapseTwo">
+								Crumlin College
+							</button>
+						</h5>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+						<div class="card-body">
+							<div id="education-text">
+								<h4>Crumlin College of Further Education</h4>
+								<h5>2012 - 2015</h5>
+								<p>Networks and Software Systems</p>
+								<p>VTAC Level 5, 6</p>
+							</div>
+
+							<div class="row">
+								<div class="edImages">
+									<li><img class="ITT" src="img/CrumlinCollege.png" alt="IT Tallaght" onclick="openModal2();currentSlide(1)"
+										 class="hover-shadow cursor">
+										</a></li>
+								</div>
+
+								<div id="myModal2" class="modal">
+									<span class="close cursor" onclick="closeModal2()">&times;</span>
+									<div class="modal-content">
+
+										<div class="mySlides2">
+											<div class="numbertext">1</div>
+											<img src="img/crumlinCollegeCert.jpg" style="width:100%">
+										</div>
+
+
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+										<div class="caption-container">
+											<p id="caption"></p>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-edImages"><a href="https://www.google.ie/maps/place/Crumlin+College+of+Further+Education/@53.3290865,-6.3058865,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c6904ce4a11:0x52b9c86e7a73b0cd!8m2!3d53.3290865!4d-6.3036978"
+									 target="_blank"><img class="Map" src="img/CrumlinCollegeMap.png" alt="Crumlin College"></a></li>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header" id="headingThree">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+							 aria-controls="collapseTwo">
+								Digital Hub
+							</button>
+						</h5>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+						<div class="card-body">
+							<div id="education-text">
 								<h4>Digital Hub</h4>
-								<p>Before I attended ITT, I studied Information Technology in Crumlin College completing modules such as,
-									System Maintenance, Relational Database, Object orientated Programming, Windows Programming, Data
-									Communications, Networks, Web Authoring, Database Methods, Computer Architecture and systems, and
-									Communications. This was a big challenge for me, as I have never studied any high-level computer programming
-									before. It was not long after the first year in Crumlin College that I realized that I could possibly move
-									forward as a computer programmer and have a start a career. This was the second stage on my path to Institute
-									of Technology Tallaght.</p>
-							</article>
-						</div>
-
-						<div class="col">
-							<article id="Article_4">
-								<h4></h4>Digital Hub</h4>
-								<p>I enjoyed this course and the two main subjects I liked was Radio Program Production and Animation. In the
-									course, we had to be able to create an hour-long set for live radio for the Digital Hub 94.3 FM radio station.
-									My job was the sports section I would give the listeners a breakdown of the games that have been played, live
-									scores and up and coming matches. For my animation project, I created an animation rugby team lip syncing
-									Irelands Call anthem. This course is really, what got me on the path to where I am now.</p>
-							</article>
-						</div>
-					</div>
-				</div>
-		</div>
-
-
-		<div id="Education">
-			<ul style="list-style: none;">
-				<h1>Education</h1>
-				<div id="education-text">
-					<h4>Institute Technology Tallaght </h4>
-					<h5>2015 - 2019</h5>
-					<p>Bachelor of Science (Honours)</p>
-					<p>B in Computing with Information </p>
-					<p>Technology Management</p>
-				</div>
-
-				<div class="row">
-					<div class="edImages">
-						<li><img class="ITT" src="img/ITT.png" alt="IT Tallaght" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-							</a></li>
-					</div>
-
-					<div id="myModal" class="modal">
-						<span class="close cursor" onclick="closeModal()">&times;</span>
-						<div class="modal-content">
-
-							<div class="mySlides">
-								<div class="numbertext">1</div>
-								<img src="img/ITTCert.png" style="width:100%">
+								<h5>2009 - 2011</h5>
+								<p>Digital Media & Production</p>
+								<p>VTAC Level 3, 5</p>
 							</div>
 
-
-							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-							<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-							<div class="caption-container">
-								<p id="caption"></p>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-edImages">
-						<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937"
-							 target="_blank"><img class="Map" src="img/ITTMap.png" alt="IT Tallaght"></a></li>
-					</div>
-				</div>
-
-				<div id="accordion">
-					<div class="card">
-						<div class="card-header" id="headingTwo">
-							<h5 class="mb-0">
-								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-								 aria-controls="collapseTwo">
-									Crumlin College
-								</button>
-							</h5>
-						</div>
-						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							<div class="card-body">
-								<div id="education-text">
-									<h4>Crumlin College of Further Education</h4>
-									<h5>2012 - 2015</h5>
-									<p>Networks and Software Systems</p>
-									<p>VTAC Level 5, 6</p>
+							<div class="row">
+								<div class="edImages">
+									<li><img class="digitalhub" src="img/DigitalHub.png" alt="IT Tallaght" onclick="openModal3();currentSlide(1)"
+										 class="hover-shadow cursor">
+										</a></li>
 								</div>
 
-								<div class="row">
-									<div class="edImages">
-										<li><img class="ITT" src="img/CrumlinCollege.png" alt="IT Tallaght" onclick="openModal2();currentSlide(1)"
-											 class="hover-shadow cursor">
-											</a></li>
-									</div>
+								<div id="myModal3" class="modal">
+									<span class="close cursor" onclick="closeModal3()">&times;</span>
+									<div class="modal-content">
 
-									<div id="myModal2" class="modal">
-										<span class="close cursor" onclick="closeModal2()">&times;</span>
-										<div class="modal-content">
-
-											<div class="mySlides2">
-												<div class="numbertext">1</div>
-												<img src="img/crumlinCollegeCert.jpg" style="width:100%">
-											</div>
+										<div class="mySlides3">
+											<div class="numbertext">1</div>
+											<img src="img/digitalHubResults.jpg" style="width:100%">
+										</div>
 
 
-											<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-											<a class="next" onclick="plusSlides(1)">&#10095;</a>
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-											<div class="caption-container">
-												<p id="caption"></p>
-											</div>
+										<div class="caption-container">
+											<p id="caption"></p>
 										</div>
 									</div>
-
-									<div class="col-edImages"><a href="https://www.google.ie/maps/place/Crumlin+College+of+Further+Education/@53.3290865,-6.3058865,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c6904ce4a11:0x52b9c86e7a73b0cd!8m2!3d53.3290865!4d-6.3036978"
-										 target="_blank"><img class="Map" src="img/CrumlinCollegeMap.png" alt="Crumlin College"></a></li>
-									</div>
-
 								</div>
+
+								<div class="col-edImages"><a href="https://www.google.ie/maps/place/Video+Production+Dublin:+CB+Media/@53.3431852,-6.2839447,18z/data=!3m1!4b1!4m5!3m4!1s0x48670e81133e5b63:0x4f25472284ee6b93!8m2!3d53.3431852!4d-6.283294"
+									 target="_blank"><img class="Map" src="img/DigitalHubMap.png" alt="Crumlin College"></a></li>
+								</div>
+
 							</div>
 						</div>
 					</div>
-
-					<div class="card">
-						<div class="card-header" id="headingThree">
-							<h5 class="mb-0">
-								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-								 aria-controls="collapseTwo">
-									Digital Hub
-								</button>
-							</h5>
-						</div>
-						<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							<div class="card-body">
-								<div id="education-text">
-									<h4>Digital Hub</h4>
-									<h5>2009 - 2011</h5>
-									<p>Digital Media & Production</p>
-									<p>VTAC Level 3, 5</p>
-								</div>
-
-								<div class="row">
-									<div class="edImages">
-										<li><img class="digitalhub" src="img/DigitalHub.png" alt="IT Tallaght" onclick="openModal3();currentSlide(1)"
-											 class="hover-shadow cursor">
-											</a></li>
-									</div>
-
-									<div id="myModal3" class="modal">
-										<span class="close cursor" onclick="closeModal3()">&times;</span>
-										<div class="modal-content">
-
-											<div class="mySlides3">
-												<div class="numbertext">1</div>
-												<img src="img/digitalHubResults.jpg" style="width:100%">
-											</div>
-
-
-											<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-											<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-											<div class="caption-container">
-												<p id="caption"></p>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-edImages"><a href="https://www.google.ie/maps/place/Video+Production+Dublin:+CB+Media/@53.3431852,-6.2839447,18z/data=!3m1!4b1!4m5!3m4!1s0x48670e81133e5b63:0x4f25472284ee6b93!8m2!3d53.3431852!4d-6.283294"
-										 target="_blank"><img class="Map" src="img/DigitalHubMap.png" alt="Crumlin College"></a></li>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="card">
-						<div class="card-header" id="headingFour">
-							<h5 class="mb-0">
-								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-								 aria-controls="collapseFour">
-									Scoil Eoin
-								</button>
-							</h5>
-						</div>
-						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-							<div class="card-body">
-								<div id="education-text">
-									<h4>Scoil Eoin</h4>
-									<h5>1999 - 2005</h5>
-									<p>Leaving Cert (LCA)</p>
-									<p>Junior Cert</p>
-								</div>
-
-								<div class="row">
-									<div class="edImages">
-										<li><img class="scoileoin" src="img/scoilEoin.png" alt="IT Tallaght" onclick="openModal4();currentSlide(1)"
-											 class="hover-shadow cursor">
-											</a></li>
-									</div>
-
-									<div id="myModal4" class="modal">
-										<span class="close cursor" onclick="closeModal4()">&times;</span>
-										<div class="modal-content">
-
-											<div class="mySlides4">
-												<div class="numbertext">1</div>
-												<img src="img/LCA.png" style="width:100%">
-											</div>
-
-
-											<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-											<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-											<div class="caption-container">
-												<p id="caption"></p>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-edImages"><a href="https://www.google.ie/maps/place/Scoil+Eoin/@53.3200569,-6.3091036,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c7ac218ec13:0xdfe2603a1cccff37!8m2!3d53.3200537!4d-6.306915"
-										 target="_blank"><img class="Map" src="img/scoilEoinMap.png" alt="Crumlin College"></a></li>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-
 				</div>
-				</ui>
-		</div>
+
+				<div class="card">
+					<div class="card-header" id="headingFour">
+						<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+							 aria-controls="collapseFour">
+								Scoil Eoin
+							</button>
+						</h5>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+						<div class="card-body">
+							<div id="education-text">
+								<h4>Scoil Eoin</h4>
+								<h5>1999 - 2005</h5>
+								<p>Leaving Cert (LCA)</p>
+								<p>Junior Cert</p>
+							</div>
+
+							<div class="row">
+								<div class="edImages">
+									<li><img class="scoileoin" src="img/scoilEoin.png" alt="IT Tallaght" onclick="openModal4();currentSlide(1)"
+										 class="hover-shadow cursor">
+										</a></li>
+								</div>
+
+								<div id="myModal4" class="modal">
+									<span class="close cursor" onclick="closeModal4()">&times;</span>
+									<div class="modal-content">
+
+										<div class="mySlides4">
+											<div class="numbertext">1</div>
+											<img src="img/LCA.png" style="width:100%">
+										</div>
 
 
+										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+										<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+										<div class="caption-container">
+											<p id="caption"></p>
+										</div>
+									</div>
+								</div>
 
+								<div class="col-edImages"><a href="https://www.google.ie/maps/place/Scoil+Eoin/@53.3200569,-6.3091036,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c7ac218ec13:0xdfe2603a1cccff37!8m2!3d53.3200537!4d-6.306915"
+									 target="_blank"><img class="Map" src="img/scoilEoinMap.png" alt="Crumlin College"></a></li>
+								</div>
 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
 
-		<div id="results">
-			<h1>Results</h1>
+	<div id="results">
+		<h1>Results</h1>
 
+		<ul class="nav nav-pills">
+			<li class="active"><a href="#1a" data-toggle="tab">Fourth Year</a></li>
+			<li><a href="#2a" data-toggle="tab">Third Year</a></li>
+			<li><a href="#3a" data-toggle="tab">Second Year</a></li>
+			<li><a href="#4a" data-toggle="tab">First Year</a></li>
+		</ul>
 
+	
+		<div class="tab-content ">
+			<div class="tab-pane active" id="summary">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Stage</th>
+							<th>Passed</th>
+							<th>GPA</th>
+							<th>Credits</th>
+							<th>Credits Required</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Stage 1</td>
+							<td>Y</td>
+							<td>3.17</td>
+							<td>60</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<td>Stage 2</td>
+							<td>Y</td>
+							<td>3.23</td>
+							<td>60</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<td>Stage 3</td>
+							<td>Y</td>
+							<td>2.38</td>
+							<td>60</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<td>Stage 4</td>
+							<td>N</td>
+							<td>.00</td>
+							<td>0</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<td>Award</td>
+							<td>N</td>
+							<td>.00</td>
+							<td>.00</td>
+							<td> </td>
+						</tr>
+						<tr>
+							<td> </td>
+							<td> </td>
+							<td> </td>
+							<td>180</td>
+							<td>240</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 
-			<ul class="nav nav-pills">
-				<li class="active"><a href="#1a" data-toggle="tab">Fourth Year</a></li>
-				<li><a href="#2a" data-toggle="tab">Third Year</a></li>
-				<li><a href="#3a" data-toggle="tab">Second Year</a></li>
-				<li><a href="#4a" data-toggle="tab">First Year</a></li>
-			</ul>
-
-			<div class="tab-content ">
-				<div class="tab-pane active" id="summary">
+			<div class="tab-content clearfix">
+				<div class="tab-pane active" id="1a">
 					<table class="table">
 						<thead>
 							<tr>
-								<th>Stage</th>
-								<th>Passed</th>
-								<th>GPA</th>
-								<th>Credits</th>
-								<th>Credits Required</th>
+								<th>Subject</th>
+								<th>Grade</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Stage 1</td>
-								<td>Y</td>
-								<td>3.17</td>
-								<td>60</td>
-								<td>60</td>
+								<td>IMD</td>
+								<td>A</td>
 							</tr>
 							<tr>
-								<td>Stage 2</td>
-								<td>Y</td>
-								<td>3.23</td>
-								<td>60</td>
-								<td>60</td>
+								<td>Database</td>
+								<td>B</td>
 							</tr>
 							<tr>
-								<td>Stage 3</td>
-								<td>Y</td>
-								<td>2.38</td>
-								<td>60</td>
-								<td>60</td>
-							</tr>
-							<tr>
-								<td>Stage 4</td>
-								<td>N</td>
-								<td>.00</td>
-								<td>0</td>
-								<td>60</td>
-							</tr>
-							<tr>
-								<td>Award</td>
-								<td>N</td>
-								<td>.00</td>
-								<td>.00</td>
-								<td> </td>
-							</tr>
-							<tr>
-								<td> </td>
-								<td> </td>
-								<td> </td>
-								<td>180</td>
-								<td>240</td>
+								<td>Network</td>
+								<td>C</td>
 							</tr>
 						</tbody>
 					</table>
 				</div>
 
-				<div class="tab-content clearfix">
-					<div class="tab-pane active" id="1a">
-						<table class="table">
-							<thead>
-								<tr>
-									<th>Subject</th>
-									<th>Grade</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>IMD</td>
-									<td>A</td>
-								</tr>
-								<tr>
-									<td>Database</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>Network</td>
-									<td>C</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
+				<div class="tab-pane" id="2a">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>W Web Application Development</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>W Operating Systems</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Cloud servs and distrib comp</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Advanced Databases</td>
+								<td>B-</td>
+							</tr>
+							<tr>
+								<td>Data Structures and Algorithms</td>
+								<td>D</td>
+							</tr>
+							<tr>
+								<td>Data Analysis</td>
+								<td>D</td>
+							</tr>
+							<tr>
+								<td>Work Experience</td>
+								<td>COMPLETED</td>
+							</tr>
 
-					<div class="tab-pane" id="2a">
-						<table class="table">
-							<thead>
-								<tr>
-									<th>Subject</th>
-									<th>Grade</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>W Web Application Development</td>
-									<td>C+</td>
-								</tr>
-								<tr>
-									<td>W Operating Systems</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Cloud servs and distrib comp</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Advanced Databases</td>
-									<td>B-</td>
-								</tr>
-								<tr>
-									<td>Data Structures and Algorithms</td>
-									<td>D</td>
-								</tr>
-								<tr>
-									<td>Data Analysis</td>
-									<td>D</td>
-								</tr>
-								<tr>
-									<td>Work Experience</td>
-									<td>COMPLETED</td>
-								</tr>
+						</tbody>
+					</table>
+				</div>
 
-							</tbody>
-						</table>
-					</div>
+				<div class="tab-pane" id="3a">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>W Software Development 3</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Software Qual Ass And Testing</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Networking 1</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>W Database Design and Programmin</td>
+								<td>B-</td>
+							</tr>
+							<tr>
+								<td>W Discrete Mathematics 2</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Web and Mobile Design and Devel.</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>S Software Development 4</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>S Project</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>S Networking 2</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>S Management Science</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>S Object Oriented Analy and Desi</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>S Information Security</td>
+								<td>B+</td>
+							</tr>
 
-					<div class="tab-pane" id="3a">
-						<table class="table">
-							<thead>
-								<tr>
-									<th>Subject</th>
-									<th>Grade</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>W Software Development 3</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Software Qual Ass And Testing</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Networking 1</td>
-									<td>B+</td>
-								</tr>
-								<tr>
-									<td>W Database Design and Programmin</td>
-									<td>B-</td>
-								</tr>
-								<tr>
-									<td>W Discrete Mathematics 2</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Web and Mobile Design and Devel.</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>S Software Development 4</td>
-									<td>B+</td>
-								</tr>
-								<tr>
-									<td>S Project</td>
-									<td>A</td>
-								</tr>
-								<tr>
-									<td>S Networking 2</td>
-									<td>B+</td>
-								</tr>
-								<tr>
-									<td>S Management Science</td>
-									<td>B+</td>
-								</tr>
-								<tr>
-									<td>S Object Oriented Analy and Desi</td>
-									<td>C+</td>
-								</tr>
-								<tr>
-									<td>S Information Security</td>
-									<td>B+</td>
-								</tr>
+						</tbody>
+					</table>
+				</div>
 
-							</tbody>
-						</table>
-					</div>
+				<div class="tab-pane" id="4a">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Subject</th>
+								<th>Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>W Software Development 1</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>W Computer Architecture</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Fundament of Interface And Web</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Business AndInformation Sys</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>W Discrete Mathematics 1</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>W Learning to Learn at 3rd Lvl</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>S Software Development 2</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>S Object Oriented System Analy</td>
+								<td>A</td>
+							</tr>
+							<tr>
+								<td>S Social Media Communications</td>
+								<td>B</td>
+							</tr>
+							<tr>
+								<td>S Statistics</td>
+								<td>C+</td>
+							</tr>
+							<tr>
+								<td>S Database Fundamentals</td>
+								<td>B+</td>
+							</tr>
+							<tr>
+								<td>S Operating Syst Fundamentals</td>
+								<td>B+</td>
+							</tr>
 
-					<div class="tab-pane" id="4a">
-						<table class="table">
-							<thead>
-								<tr>
-									<th>Subject</th>
-									<th>Grade</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>W Software Development 1</td>
-									<td>C+</td>
-								</tr>
-								<tr>
-									<td>W Computer Architecture</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Fundament of Interface And Web</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Business AndInformation Sys</td>
-									<td>A</td>
-								</tr>
-								<tr>
-									<td>W Discrete Mathematics 1</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>W Learning to Learn at 3rd Lvl</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>S Software Development 2</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>S Object Oriented System Analy</td>
-									<td>A</td>
-								</tr>
-								<tr>
-									<td>S Social Media Communications</td>
-									<td>B</td>
-								</tr>
-								<tr>
-									<td>S Statistics</td>
-									<td>C+</td>
-								</tr>
-								<tr>
-									<td>S Database Fundamentals</td>
-									<td>B+</td>
-								</tr>
-								<tr>
-									<td>S Operating Syst Fundamentals</td>
-									<td>B+</td>
-								</tr>
-
-							</tbody>
-						</table>
-					</div>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
-
-
+	</div>
 	</div>
 
 	<div id="workExp">
 		<h1>Work Experience</h1>
 		<div class="row-wexp">
-			<div class="col-lg-3">
+			<div class="col-md-3">
 				<a href="https://www.bofaml.com/content/boaml/en_us/home.html">
 					<img class="BAML" src="img/BAML.png" alt="">
 				</a>
 			</div>
 
-			<div class="col-lg-9">
+			<div class="col-md-9">
 				<p>In the second semester of our 3rd year we were required to apply for an internship. And I got a placement at
 					bank of America Merrill Lynch. I was allocated to the operations team on the 5th floor. Our team was the Brexit
 					team and had to aim for a hard Brexit so in other words the bank wanted to have all information on companies from
@@ -628,7 +611,6 @@
 					<p>Intellij, Jira, Babun</p>
 		</div>
 	</div>
-
 
 	<div id="skills">
 		<h1>Skills</h1>
@@ -676,7 +658,6 @@
 				<div class="skill-bar-percent">77%</div>
 			</div> <!-- End Skill Bar -->
 		</div>
-
 	</div>
 
 	<div id="intrests">
@@ -724,7 +705,6 @@
 	</div>
 	</div>
 
-
 	<footer>
 		<div class="footer">
 			<div class="container">
@@ -738,7 +718,7 @@
 
 					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 						<ul class="column-footer">
-							<li><a href="index.html#">Download CV</a></li>
+							
 							<li><a href="index.html#aboutMe">About Me</a></li>
 							<li><a href="index.html#Education">Education</a></li>
 							<li><a href="index.html#results">Results</a></li>
@@ -755,7 +735,6 @@
 					</div>
 				</div>
 
-
 				<div class="icons">
 					<div class="row">
 						<a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook-square"></span></a>
@@ -765,16 +744,13 @@
 					</div>
 				</div>
 
-
 			</div>
 			<div class="footer-copyright text-center py-3">© 2018 Copyright: Alex Grant Online CV
 			</div>
 			<!-- Copyright -->
 		</div>
 		<!-- Copyright -->
-
 	</footer>
-
 </body>
 
 </html>

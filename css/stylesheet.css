@@ -9,6 +9,10 @@ body
   
 }
 
+.sub-heading{
+	color: #4CAF50;
+}
+
  /* Nav bar */
 .navbar-inverse
 {
@@ -54,6 +58,22 @@ body
 .nav-pills>li {
     float: left;
 }
+/*Result nav bar*/
+.nav {
+	text-align: center;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #4CAF50;
+}
+
+
+
+.nav-pills>li {
+    float: left;
+}
 
 /* Nav bar end*/
 
@@ -66,7 +86,6 @@ div.container-fluid
 
 #aboutMe
 {
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10em;
@@ -148,8 +167,10 @@ header p
 
 article 
 {
-	width: 500px;
-	margin-left: 50px;
+	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 2em;
 
 }
@@ -164,29 +185,24 @@ article p
 ARTICLE#Article_1 
 {
 color: black;
-float: left;
-
 }
 
 ARTICLE#Article_2 
 {
 	color: black;
-	float: left;
 
 }
 
 ARTICLE#Article_3 
 {
 	color: black;
-	float: left;
 
 }
 
 ARTICLE#Article_4 
 {
 	color: black;
-	float: left;
-	margin-left: 5%;
+
 
 
 }
@@ -385,6 +401,12 @@ img.Map
 
 
 /*results tables*/
+.tab-content
+{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 #results
 {
@@ -395,8 +417,10 @@ img.Map
 }
 
 .table {
-	margin-left: 30%;
-    width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+    width: 60%;
     margin-bottom: 20px;
 }
 
