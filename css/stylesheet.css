@@ -14,11 +14,13 @@ body
 {
 	display: block;
 	background-color: #4CAF50;
-	width: 100%;
+	width: 80%;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	position: fixed; 
 	z-index: 1;
-	margin-bottom: 30px;
+	margin-bottom: 1em;
 }
 
 .navbar-inverse .navbar-brand 
@@ -57,13 +59,16 @@ body
 
 div.container-fluid
 {
-	width: 100%
+	width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #aboutMe
 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 10em;
 }
 	  
@@ -82,26 +87,27 @@ header p
   
 #profile-pickture
 {
-	
-	margin-top: 40px;
+	text-align: center;
+	margin-top: 3em;
 	display: block;
-    margin-left: 300px;
+    margin-left: auto;
     margin-right: auto;
    	width: 40%;
-   	height: 20%;
+   	height: auto;
 }
 
 #pic-name
 {
-	width: 100%;
+	width: 80%;
 	margin-right: auto;
-	margin-left: 270px;
+	margin-left: auto;
 }
 
 .img-rounded 
 {
     width: 60%;
-     margin-left: 150px;
+	 margin-left: auto;
+	 margin-right: auto;
 }
 	
 
@@ -110,8 +116,8 @@ header p
 .btn-success 
 {
     color: #fff;
-	margin-left: 100px;
-
+	margin-left: auto;
+	margin-right: auto;
     background-color: #5cb85c;
     border-color: #4cae4c;
 }
@@ -125,10 +131,10 @@ header p
 
 .btn-link {
     color: #fff;
-    margin-left: 100px;
+    margin-left: auto;
     background-color: #5cb85c;
     border-color: #4cae4c;
-     border-radius: 15px 50px;
+    border-radius: 15px 50px;
 }
 
 .btn-link:focus, .btn-link:hover {
@@ -159,29 +165,29 @@ ARTICLE#Article_1
 {
 color: black;
 float: left;
-font-family:Trajan Pro;
+
 }
 
 ARTICLE#Article_2 
 {
 	color: black;
 	float: left;
-	font-family:Trajan Pro;
+
 }
 
 ARTICLE#Article_3 
 {
 	color: black;
 	float: left;
-	font-family:Trajan Pro;
+
 }
 
 ARTICLE#Article_4 
 {
 	color: black;
 	float: left;
-	margin-left: 80px;
-	font-family:Trajan Pro;
+	margin-left: 5%;
+
 
 }
  /*contact page*/
@@ -215,7 +221,6 @@ a:hover,a:focus
 /*Contact page*/
 #contact 
 {
-
     background: #f5f5f5;
     color: #4CAF50;
     padding-bottom: 80px;
@@ -329,11 +334,11 @@ img.Map
 
 #Education
 {
-
-	width: 100%; //fallback
-    width: 100vw;
+	text-align: center;
+	width: 80%; 
 	clear: both;
-	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 10em;
 }
 
@@ -383,12 +388,15 @@ img.Map
 
 #results
 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 10em;
 }
-.table {
-	margin-left: 250px;
-    width: 80%;
 
+.table {
+	margin-left: 30%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
@@ -429,7 +437,8 @@ img.Map
 /*Work ex*/
 #workExp
 {
-	margin-bottom: 40px;
+	margin-left: 10%;
+	width: 80%;
 	clear: both;
 	margin-bottom: 10em;
 }
@@ -523,8 +532,12 @@ width:110px;
 
 #skills
 {
+	width: 80%;
+	text-align: center;
 	clear: both;
 	margin-bottom: 10em;
+	margin-left: auto;
+	margin-right: auto;
 }
 #skillsbar{
     width: 80%;
@@ -540,6 +553,9 @@ width:110px;
 
 #intrests
 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	 margin-bottom: 10em;
 	 clear: both;
 }
