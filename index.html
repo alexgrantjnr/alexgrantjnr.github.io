@@ -19,19 +19,17 @@
 
 <body>
 
-	<div class="container-fluid">
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-				<div class="navbar-header">
+		<nav class="navbar navbar-expand-lg navbar-inverse navbar-fixed-top">
+			<div class="container">
+					<a class="navbar-brand" href="#">Alex Grant</a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="#">Alex Grant</a>
+
 					</div>
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="#aboutMe">About me</a></li>
@@ -42,12 +40,17 @@
 						<li><a href="#intrests">Intrests</a></li>
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
-					</ul>
 				</div>
 			</div>
 		</nav>
-		<header>
 
+
+
+
+
+
+		<header>
+<div class="container">
 			<div id="profile-pickture">
 				<img src="img/welcome.png" class="img-rounded" alt="Cinque Terre">
 				<h4 id="pic-name">Alex Grant</h4>
@@ -55,6 +58,7 @@
 					<button type="button" class="btn btn-success" onclick="window.open('AlexGrantCV.docx')">Download my CV</button>&nbsp;&nbsp;&nbsp;
 				</div>
 			</div>
+		</div>
 		</header>
 
 		<div class="container text-center" id="aboutMe">
@@ -107,212 +111,227 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
-	<div id="Education">
-		<ul style="list-style: none;">
-			<h1>Education</h1>
-			<div id="education-text">
-				<h4>Institute Technology Tallaght </h4>
-				<h5>2015 - 2019</h5>
-				<p>Bachelor of Science (Honours)</p>
-				<p>B in Computing with Information </p>
-				<p>Technology Management</p>
-			</div>
-
-			<div class="row">
-				<div class="edImages">
-					<li><img class="ITT" src="img/ITT.png" alt="IT Tallaght" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-						</a></li>
-				</div>
-
-				<div id="myModal" class="modal">
-					<span class="close cursor" onclick="closeModal()">&times;</span>
-					<div class="modal-content">
-
-						<div class="mySlides">
-							<div class="numbertext">1</div>
-							<img src="img/ITTCert.png" style="width:100%">
-						</div>
-
-						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-						<div class="caption-container">
-							<p id="caption"></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-edImages">
-					<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937"
-						 target="_blank"><img class="Map" src="img/ITTMap.png" alt="IT Tallaght"></a></li>
+	<div class="container text-center" id="Education">
+		<div class="row">
+			<div class="col-md-12">
+			<ul style="list-style: none;">
+				<h1>Education</h1>
+				<div id="education-text">
+					<h4>Institute Technology Tallaght </h4>
+					<h5>2015 - 2019</h5>
+					<p>Bachelor of Science (Honours)</p>
+					<p>B in Computing with Information </p>
+					<p>Technology Management</p>
 				</div>
 			</div>
+			</div>
 
-			<div id="accordion">
-				<div class="card">
-					<div class="card-header" id="headingTwo">
-						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-							 aria-controls="collapseTwo">
-								Crumlin College
-							</button>
-						</h5>
-					</div>
-					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-						<div class="card-body">
-							<div id="education-text">
-								<h4>Crumlin College of Further Education</h4>
-								<h5>2012 - 2015</h5>
-								<p>Networks and Software Systems</p>
-								<p>VTAC Level 5, 6</p>
-							</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="edImages">
+							<li><img class="ITT" src="img/ITT.png" alt="IT Tallaght" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"></li>
+						</div>
+					
+					
 
-							<div class="row">
-								<div class="edImages">
-									<li><img class="ITT" src="img/CrumlinCollege.png" alt="IT Tallaght" onclick="openModal2();currentSlide(1)"
-										 class="hover-shadow cursor">
-										</a></li>
+						<div id="myModal" class="modal">
+							<span class="close cursor" onclick="closeModal()">&times;</span>
+							<div class="modal-content">
+
+								<div class="mySlides">
+									<div class="numbertext">1</div>
+									<img src="img/ITTCert.png" style="width:100%">
 								</div>
 
-								<div id="myModal2" class="modal">
-									<span class="close cursor" onclick="closeModal2()">&times;</span>
-									<div class="modal-content">
+								<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+								<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-										<div class="mySlides2">
-											<div class="numbertext">1</div>
-											<img src="img/crumlinCollegeCert.jpg" style="width:100%">
-										</div>
+								<div class="caption-container">
+									<p id="caption"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
+					<div class="col-md-6">
+						<div class="col-edImages">
+							<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937"
+								target="_blank"><img class="Map" src="img/ITTMap.png" alt="IT Tallaght"></a></li>
+						</div>
+					</div>
 
-										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-										<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-										<div class="caption-container">
-											<p id="caption"></p>
+				<div class="container">
+					<div class="row"></div>
+				
+				<div class="col-md-12">
+						<div id="accordion">
+								<div class="card">
+									<div class="card-header" id="headingTwo">
+										<h5 class="mb-0">
+											<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+											 aria-controls="collapseTwo">
+												Crumlin College
+											</button>
+										</h5>
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+										<div class="card-body">
+											<div id="education-text">
+												<h4>Crumlin College of Further Education</h4>
+												<h5>2012 - 2015</h5>
+												<p>Networks and Software Systems</p>
+												<p>VTAC Level 5, 6</p>
+											</div>
+			
+											<div class="row">
+												<div class="edImages">
+													<li><img class="ITT" src="img/CrumlinCollege.png" alt="IT Tallaght" onclick="openModal2();currentSlide(1)"
+														 class="hover-shadow cursor">
+														</a></li>
+												</div>
+			
+												<div id="myModal2" class="modal">
+													<span class="close cursor" onclick="closeModal2()">&times;</span>
+													<div class="modal-content">
+			
+														<div class="mySlides2">
+															<div class="numbertext">1</div>
+															<img src="img/crumlinCollegeCert.jpg" style="width:100%">
+														</div>
+			
+			
+														<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+														<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+														<div class="caption-container">
+															<p id="caption"></p>
+														</div>
+													</div>
+												</div>
+			
+												<div class="col-edImages"><a href="https://www.google.ie/maps/place/Crumlin+College+of+Further+Education/@53.3290865,-6.3058865,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c6904ce4a11:0x52b9c86e7a73b0cd!8m2!3d53.3290865!4d-6.3036978"
+													 target="_blank"><img class="Map" src="img/CrumlinCollegeMap.png" alt="Crumlin College"></a></li>
+												</div>
+			
+											</div>
 										</div>
 									</div>
 								</div>
-
-								<div class="col-edImages"><a href="https://www.google.ie/maps/place/Crumlin+College+of+Further+Education/@53.3290865,-6.3058865,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c6904ce4a11:0x52b9c86e7a73b0cd!8m2!3d53.3290865!4d-6.3036978"
-									 target="_blank"><img class="Map" src="img/CrumlinCollegeMap.png" alt="Crumlin College"></a></li>
-								</div>
-
-							</div>
-						</div>
-					</div>
 				</div>
-
-				<div class="card">
-					<div class="card-header" id="headingThree">
-						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
-							 aria-controls="collapseTwo">
-								Digital Hub
-							</button>
-						</h5>
+				</div>
 					</div>
-					<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-						<div class="card-body">
-							<div id="education-text">
-								<h4>Digital Hub</h4>
-								<h5>2009 - 2011</h5>
-								<p>Digital Media & Production</p>
-								<p>VTAC Level 3, 5</p>
-							</div>
 
-							<div class="row">
-								<div class="edImages">
-									<li><img class="digitalhub" src="img/DigitalHub.png" alt="IT Tallaght" onclick="openModal3();currentSlide(1)"
-										 class="hover-shadow cursor">
-										</a></li>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+								 aria-controls="collapseTwo">
+									Digital Hub
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<div id="education-text">
+									<h4>Digital Hub</h4>
+									<h5>2009 - 2011</h5>
+									<p>Digital Media & Production</p>
+									<p>VTAC Level 3, 5</p>
 								</div>
 
-								<div id="myModal3" class="modal">
-									<span class="close cursor" onclick="closeModal3()">&times;</span>
-									<div class="modal-content">
+								<div class="row">
+									<div class="edImages">
+										<li><img class="digitalhub" src="img/DigitalHub.png" alt="IT Tallaght" onclick="openModal3();currentSlide(1)"
+											 class="hover-shadow cursor">
+											</a></li>
+									</div>
 
-										<div class="mySlides3">
-											<div class="numbertext">1</div>
-											<img src="img/digitalHubResults.jpg" style="width:100%">
-										</div>
+									<div id="myModal3" class="modal">
+										<span class="close cursor" onclick="closeModal3()">&times;</span>
+										<div class="modal-content">
+
+											<div class="mySlides3">
+												<div class="numbertext">1</div>
+												<img src="img/digitalHubResults.jpg" style="width:100%">
+											</div>
 
 
-										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+											<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+											<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-										<div class="caption-container">
-											<p id="caption"></p>
+											<div class="caption-container">
+												<p id="caption"></p>
+											</div>
 										</div>
 									</div>
-								</div>
 
-								<div class="col-edImages"><a href="https://www.google.ie/maps/place/Video+Production+Dublin:+CB+Media/@53.3431852,-6.2839447,18z/data=!3m1!4b1!4m5!3m4!1s0x48670e81133e5b63:0x4f25472284ee6b93!8m2!3d53.3431852!4d-6.283294"
-									 target="_blank"><img class="Map" src="img/DigitalHubMap.png" alt="Crumlin College"></a></li>
-								</div>
+									<div class="col-edImages"><a href="https://www.google.ie/maps/place/Video+Production+Dublin:+CB+Media/@53.3431852,-6.2839447,18z/data=!3m1!4b1!4m5!3m4!1s0x48670e81133e5b63:0x4f25472284ee6b93!8m2!3d53.3431852!4d-6.283294"
+										 target="_blank"><img class="Map" src="img/DigitalHubMap.png" alt="Crumlin College"></a></li>
+									</div>
 
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="card">
-					<div class="card-header" id="headingFour">
-						<h5 class="mb-0">
-							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
-							 aria-controls="collapseFour">
-								Scoil Eoin
-							</button>
-						</h5>
-					</div>
-					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-						<div class="card-body">
-							<div id="education-text">
-								<h4>Scoil Eoin</h4>
-								<h5>1999 - 2005</h5>
-								<p>Leaving Cert (LCA)</p>
-								<p>Junior Cert</p>
-							</div>
-
-							<div class="row">
-								<div class="edImages">
-									<li><img class="scoileoin" src="img/scoilEoin.png" alt="IT Tallaght" onclick="openModal4();currentSlide(1)"
-										 class="hover-shadow cursor">
-										</a></li>
+					<div class="card">
+						<div class="card-header" id="headingFour">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+								 aria-controls="collapseFour">
+									Scoil Eoin
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+							<div class="card-body">
+								<div id="education-text">
+									<h4>Scoil Eoin</h4>
+									<h5>1999 - 2005</h5>
+									<p>Leaving Cert (LCA)</p>
+									<p>Junior Cert</p>
 								</div>
 
-								<div id="myModal4" class="modal">
-									<span class="close cursor" onclick="closeModal4()">&times;</span>
-									<div class="modal-content">
+								<div class="row">
+									<div class="edImages">
+										<li><img class="scoileoin" src="img/scoilEoin.png" alt="IT Tallaght" onclick="openModal4();currentSlide(1)"
+											 class="hover-shadow cursor">
+											</a></li>
+									</div>
 
-										<div class="mySlides4">
-											<div class="numbertext">1</div>
-											<img src="img/LCA.png" style="width:100%">
-										</div>
+									<div id="myModal4" class="modal">
+										<span class="close cursor" onclick="closeModal4()">&times;</span>
+										<div class="modal-content">
+
+											<div class="mySlides4">
+												<div class="numbertext">1</div>
+												<img src="img/LCA.png" style="width:100%">
+											</div>
 
 
-										<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-										<a class="next" onclick="plusSlides(1)">&#10095;</a>
+											<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+											<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-										<div class="caption-container">
-											<p id="caption"></p>
+											<div class="caption-container">
+												<p id="caption"></p>
+											</div>
 										</div>
 									</div>
+
+									<div class="col-edImages"><a href="https://www.google.ie/maps/place/Scoil+Eoin/@53.3200569,-6.3091036,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c7ac218ec13:0xdfe2603a1cccff37!8m2!3d53.3200537!4d-6.306915"
+										 target="_blank"><img class="Map" src="img/scoilEoinMap.png" alt="Crumlin College"></a></li>
+								</div>
+								</div>
+								</div>
 								</div>
 
-								<div class="col-edImages"><a href="https://www.google.ie/maps/place/Scoil+Eoin/@53.3200569,-6.3091036,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c7ac218ec13:0xdfe2603a1cccff37!8m2!3d53.3200537!4d-6.306915"
-									 target="_blank"><img class="Map" src="img/scoilEoinMap.png" alt="Crumlin College"></a></li>
-								</div>
+								
 
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-	</div>
-
-	<div id="results">
+	<div class="container text-center" id="results">
+		<div class="row">
+			<div class="col-md-12">
 		<h1>Results</h1>
 
 		<ul class="nav nav-pills">
@@ -321,11 +340,13 @@
 			<li><a href="#3a" data-toggle="tab">Second Year</a></li>
 			<li><a href="#4a" data-toggle="tab">First Year</a></li>
 		</ul>
+		</div>
 
-	
+		<div class="row">
+			<div class="col-md-6">
 		<div class="tab-content ">
 			<div class="tab-pane active" id="summary">
-				<table class="table">
+				<table class="table table-responsive">
 					<thead>
 						<tr>
 							<th>Stage</th>
@@ -384,7 +405,7 @@
 
 			<div class="tab-content clearfix">
 				<div class="tab-pane active" id="1a">
-					<table class="table">
+					<table class="table table-responsive">
 						<thead>
 							<tr>
 								<th>Subject</th>
@@ -576,8 +597,11 @@
 			</div>
 		</div>
 	</div>
+</div>
+</div>
 	</div>
 
+<div class="container">
 	<div id="workExp">
 		<h1>Work Experience</h1>
 		<div class="row-wexp">
@@ -611,7 +635,9 @@
 					<p>Intellij, Jira, Babun</p>
 		</div>
 	</div>
+</div>
 
+<div class="container">
 	<div id="skills">
 		<h1>Skills</h1>
 
@@ -659,6 +685,8 @@
 			</div> <!-- End Skill Bar -->
 		</div>
 	</div>
+</div>>
+
 
 	<div id="intrests">
 		<h1>Intrests</h1>
@@ -700,14 +728,13 @@
 
 			</ul>
 
-		</div>
 		<!-- Grid column -->
 	</div>
 	</div>
 
 	<footer>
 		<div class="footer">
-			<div class="container">
+			
 
 				<div class="row">
 					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
@@ -718,7 +745,7 @@
 
 					<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
 						<ul class="column-footer">
-							
+
 							<li><a href="index.html#aboutMe">About Me</a></li>
 							<li><a href="index.html#Education">Education</a></li>
 							<li><a href="index.html#results">Results</a></li>
@@ -744,7 +771,7 @@
 					</div>
 				</div>
 
-			</div>
+			
 			<div class="footer-copyright text-center py-3">© 2018 Copyright: Alex Grant Online CV
 			</div>
 			<!-- Copyright -->

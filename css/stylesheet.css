@@ -14,17 +14,13 @@ body
 }
 
  /* Nav bar */
-.navbar-inverse
+.navbar
 {
 	display: block;
 	background-color: #4CAF50;
-	width: 80%;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	position: fixed; 
-	z-index: 1;
 	margin-bottom: 1em;
+	height: 4em;
 }
 
 .navbar-inverse .navbar-brand 
@@ -77,22 +73,15 @@ body
 
 /* Nav bar end*/
 
-div.container-fluid
-{
-	width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-#aboutMe
-{
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10em;
-}
+
 	  
 header 
 {
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	color: green;
 	height: 100vh;
 	
@@ -104,27 +93,9 @@ header p
 	padding: 1em 10em 0em 10em;
 }
   
-#profile-pickture
-{
-	text-align: center;
-	margin-top: 3em;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-   	width: 40%;
-   	height: auto;
-}
-
-#pic-name
-{
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-
 .img-rounded 
 {
-    width: 60%;
+     width: 50%;
 	 margin-left: auto;
 	 margin-right: auto;
 }
@@ -165,22 +136,6 @@ header p
 
 
 
-article 
-{
-	text-align: center;
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 2em;
-
-}
-
-article p
-{
-	font-size: 14px;
-	padding-left: 1em;
-
-}
 
 ARTICLE#Article_1 
 {
@@ -348,20 +303,7 @@ img.Map
 
 /*Education section*/
 
-#Education
-{
-	text-align: center;
-	width: 80%; 
-	clear: both;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10em;
-}
 
-#education-text
-{
-	text-align: center;
-}
 
 /*Education section End*/
 
@@ -408,13 +350,6 @@ img.Map
 	margin-right: auto;
 }
 
-#results
-{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10em;
-}
 
 .table {
 	text-align: center;
@@ -459,18 +394,9 @@ img.Map
 /*results tables end*/
 
 /*Work ex*/
-#workExp
-{
-	margin-left: 10%;
-	width: 80%;
-	clear: both;
-	margin-bottom: 10em;
-}
 
-#workExp h3
-{
-	margin: 5px;
-}
+
+
 
 .row-wexp {
 	margin-left: 70px;
@@ -554,35 +480,11 @@ width:110px;
 	color:rgba(0, 0, 0, 0.4);
 }
 
-#skills
-{
-	width: 80%;
-	text-align: center;
-	clear: both;
-	margin-bottom: 10em;
-	margin-left: auto;
-	margin-right: auto;
-}
-#skillsbar{
-    width: 80%;
-    margin-left: 100px;
-}
+
 /*Skills bars end*/
 
 /*Intrests*/
-#intrests .col-md-3
-{
-	 margin-left: 300px;
-}
 
-#intrests
-{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	 margin-bottom: 10em;
-	 clear: both;
-}
 /*Intrests End*/
 
 /*Overlay img*/
