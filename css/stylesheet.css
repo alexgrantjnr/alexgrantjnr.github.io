@@ -112,6 +112,11 @@ header p
     border-color: #4cae4c;
 }
 
+.btn-footer
+{
+	background-color: #222222;
+}
+
 #welcomeButtons 
 {
 		
@@ -262,14 +267,14 @@ img.logo
 }
 
 /*Images*/
-img.ITT
+img#ITT
 {
 	width: 400px;
 	float: left;
 	margin-left: 100px;
 }
 
-img.crumlincollege
+img#crumlincollege
 {
 	width: 400px;
 	float: left;
@@ -277,7 +282,7 @@ img.crumlincollege
 	margin-top: 10px;
 }
 
-img.digitalhub
+img#digitalhub
 {
 	width: 400px;
 	float: left;
@@ -286,18 +291,23 @@ img.digitalhub
 
 
 
-img.scoileoin
+img#scoileoin
 {
 	width: 400px;
 	float: left;
 	margin-left: 100px;
 }
 
-img.Map
+img#Map
 {
 	width: 500px;
 	float: left;
 	margin-left: 100px;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
 }
 /*Images end*/
 
@@ -359,6 +369,13 @@ img.Map
     margin-bottom: 20px;
 }
 
+thead
+{
+	background-color: #4CAF50; 
+	color: white;
+}
+
+
 .tab-content>.active 
 {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -391,6 +408,10 @@ img.Map
     background-color: #4CAF50;
     color: white;
 }
+
+
+
+
 /*results tables end*/
 
 /*Work ex*/
@@ -521,20 +542,31 @@ width:110px;
   background-color: black;
 }
 
+.modal img{
+  
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 60%;
+
+  overflow: auto;
+
+}
+
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: black;
   margin: auto;
   padding: 0;
   width: 90%;
-  max-width: 600px;
+  max-width: 1200px;
 }
 
 /* The Close Button */
 .close {
   color: white;
-  position: absolute;
+
   top: 10px;
   right: 25px;
   font-size: 35px;
@@ -550,6 +582,7 @@ width:110px;
 
 .mySlides {
   display: none;
+  background-color: black;
 }
 
 .cursor {
@@ -557,6 +590,25 @@ width:110px;
 }
 
 /* Next & previous buttons */
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
 .prev,
 .next {
   cursor: pointer;
