@@ -137,10 +137,24 @@ header p
     text-decoration: underline;
     background-color: #5cb85c;
 }
+
+.btn-info
+{
+	color: #fff;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    border-radius: 50%;
+    margin-right: 5%;
+}
 	/* btns end*/
 
 
-
+#profile-picture
+{
+	width: 60%;
+	margin-left: 18%;
+	padding-top: 50px; 
+}
 
 ARTICLE#Article_1 
 {
@@ -162,9 +176,6 @@ ARTICLE#Article_3
 ARTICLE#Article_4 
 {
 	color: black;
-
-
-
 }
  /*contact page*/
 
@@ -177,7 +188,8 @@ h1,h2,h3
 	padding: 10px;
 }
 
-p {
+p
+ {
 	font-family: "Courier New", Courier, monospace;
 	font-size:16px;
 	line-height:1.6em;
