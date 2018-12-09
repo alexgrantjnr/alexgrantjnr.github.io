@@ -1,5 +1,6 @@
 body 
 {
+
   font-family: "Apple" Chancery, cursive; 
   color: #545E6C;
   background: white;
@@ -72,10 +73,22 @@ body
 }
 
 /* Nav bar end*/
+.jumbotron
+{
 
+  background-color: #dcefdc;
+}
 
+header h1
+{
+  margin-top: 5%;
+}
+	 
+#References
+{
+  text-align: left;
+}
 
-	  
 header 
 {
 	margin-top: 2%;
@@ -179,7 +192,21 @@ ARTICLE#Article_4
 }
  /*contact page*/
 
-h1,h2,h3 
+a#used-site 
+{
+  color: #4CAF50;
+}
+
+a#myCV 
+{
+  color: #4CAF50;
+  text-align: center;
+  font-size: 38px;
+  margin-left: 25%;
+}
+
+
+h1,h2,h3,h4 
 {	
 	font-family: "Arial Black", Gadget, sans-serif;
 	text-align: center;
@@ -221,14 +248,20 @@ textarea.form-control
     
 }
 
-form 
+form  
 {
+   background-image: url('/imag/BAML.png');
     display: block;
     margin-right: 70px;
 }
 
 /*Contact page end*/
 
+.col-md-9
+{
+  background-image: url("img/BAML.png)");
+  margin-left: 13%;
+}
 	/*Footer*/
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
@@ -239,6 +272,7 @@ body{
 .footer {
     background: #222222;
     padding: 40px 0px;
+    margin-left: 1%;
     color: #FFF;
     clear: both;
 }
@@ -279,6 +313,10 @@ img.logo
 }
 
 /*Images*/
+button
+{
+  margin-top: 5%;
+}
 img#ITT
 {
 	width: 400px;

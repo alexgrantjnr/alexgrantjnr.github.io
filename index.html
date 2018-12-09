@@ -109,6 +109,7 @@
 
 	<div class="container text-center" id="Education">
 		<div class="row">
+			
 
 			<!--IT Tallaght-->
 			<div class="col-md-12">
@@ -152,7 +153,9 @@
 				<!--IT Tallaght end-->
 
 			<!--Crumlin-->
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#crumlin">Crumlin College</button>
+			
+			<div class="panel-group" id="accordion">
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-parent="#accordion" data-target="#crumlin">Crumlin College</button>
 			<div id="crumlin" class="collapse">
 			<div class="col-md-12">
 			<div id="education-text">
@@ -190,15 +193,16 @@
 		
 			<div class="col-md-6">
 			<ul style="list-style-type: none">
-			<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937" target="_blank"><img src="img/CrumlinCollegeMap.png" alt="Nature" class="responsive"></a></li>
+			<li><a href="https://www.google.com/maps/place/Crumlin+College+of+Further+Education/@53.3290897,-6.3058865,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c6904ce4a11:0x52b9c86e7a73b0cd!8m2!3d53.3290865!4d-6.3036979" target="_blank"><img src="img/CrumlinCollegeMap.png" alt="Nature" class="responsive"></a></li>
 		</ul>
 			</div>
 		</div>
 			</div>
 		</div>
+
 			<!--Crumlin end-->
 			<!--Digitalhub-->
-			<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#digitalhub">Digital Hub</button>
+			<button type="button" class="btn btn-info" data-toggle="collapse" data-parent="#accordion" data-target="#digitalhub">Digital Hub</button>
 			<div id="digitalhub" class="collapse">
 			<div class="col-md-12">
 			<div id="education-text">
@@ -234,7 +238,7 @@
 		
 			<div class="col-md-6">
 			<ul style="list-style-type: none">
-			<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937" target="_blank"><img src="img/DigitalHubMap.png" alt="Nature" class="responsive"></a></li>
+			<li><a href="https://www.google.com/maps/place/The+Digital+Hub/@53.3439775,-6.2858454,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c3abd9f7bef:0x506303fba89271a9!8m2!3d53.3439743!4d-6.2836567" target="_blank"><img src="img/DigitalHubMap.png" alt="Nature" class="responsive"></a></li>
 		</ul>
 			</div>
 		</div>
@@ -242,8 +246,8 @@
 		</div>
 			<!--Digitalhub end-->
 
-				<!--Digitalhub-->
-				<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#scoileoin">Scoil Eoin</button>
+				<!--Scoi Eoinl-->
+				<button type="button" class="btn btn-info" data-toggle="collapse" data-parent="#accordion" data-target="#scoileoin">Scoil Eoin</button>
 			<div id="scoileoin" class="collapse">
 			<div class="col-md-12">
 			<div id="education-text">
@@ -280,14 +284,15 @@
 
 			<div class="col-md-6">
 			<ul style="list-style-type: none">
-			<li><a href="https://www.google.ie/maps/place/Institute+of+Technology+Tallaght/@53.2910578,-6.3651824,17z/data=!3m1!4b1!4m5!3m4!1s0x48670b4b8ec071f5:0xb6cf7501e0d9522a!8m2!3d53.2910578!4d-6.3629937" target="_blank"><img src="img/scoileoinMap.png" alt="Nature" class="responsive"></a></li>
+			<li><a href="https://www.google.com/maps/place/Scoil+Eoin/@53.3200569,-6.3091036,17z/data=!3m1!4b1!4m5!3m4!1s0x48670c7ac218ec13:0xdfe2603a1cccff37!8m2!3d53.3200537!4d-6.306915" target="_blank"><img src="img/ScoilEoinMap.png" alt="Nature" class="responsive"></a></li>
 		</ul>
 			</div>
 		</div>
 			</div>
 		</div>
-			<!--Digitalhub end-->
+			<!--Scoil Eoin end-->
 			<!--Inside row and container-->
+		</div>
 			</div>
 		</div>
 
@@ -297,7 +302,7 @@
 <div class="row">
 <h1>Results</div>
 <div class="col-md-12">
-  <h2>Hover Rows</h2>
+  <h3>Summary</h3>
   <table class="table table-hover">
     <thead>
       <tr>
@@ -360,7 +365,7 @@
 <a href="#year4" class="btn btn-info" data-toggle="collapse">See more</a>
 <div class="col-md-12">
 	 <div id="year4" class="collapse">
-  <h2>4th Year</h2>
+  <h3>4th Year</h3>
   <table class="table table-hover">
     <thead>
       <tr>
@@ -385,13 +390,14 @@
   </table>
 </div>
 </div>
+
 <!--Year 4 end-->
 
 <!--Year 3-->
 <a href="#year3" class="btn btn-info" data-toggle="collapse">See more</a>
 <div class="col-md-12">
 	<div id="year3" class="collapse">
-  <h2>3rd Year</h2>
+  <h3>3rd Year</h3>
   <table class="table table-hover">
     <thead>
      <tr>
@@ -438,7 +444,7 @@
 <a href="#year2" class="btn btn-info" data-toggle="collapse">See more</a>
 <div class="col-md-12">
 	<div id="year2" class="collapse">
-  <h2>2nd Year</h2>
+  <h3>2nd Year</h3>
   <table class="table table-hover">
     <thead>
       <tr>
@@ -505,7 +511,7 @@
 <a href="#year1" class="btn btn-info" data-toggle="collapse">See more</a>
 <div class="col-md-12">
 	<div id="year1" class="collapse">
-  <h2>1st Year</h2>
+  <h3>1st Year</h3>
   <table class="table table-hover">
     <thead>
       <tr>
@@ -575,14 +581,9 @@
 <div class="container">
 	<div id="workExp">
 		<h1>Work Experience</h1>
-		<div class="row-wexp">
-			<div class="col-md-3">
-				<a href="https://www.bofaml.com/content/boaml/en_us/home.html">
-					<img class="BAML" src="img/BAML.png" alt="">
-				</a>
-			</div>
+		
 
-			<div class="col-md-9">
+			<div class="col-md-9 text-center">
 				<p>In the second semester of our 3rd year we were required to apply for an internship. And I got a placement at
 					bank of America Merrill Lynch. I was allocated to the operations team on the 5th floor. Our team was the Brexit
 					team and had to aim for a hard Brexit so in other words the bank wanted to have all information on companies from
@@ -600,13 +601,20 @@
 
 
 			</div>
+			<div class="row-wexp">
+			<div class="col-md-12">
 			<h3>Technologies used<h3>
+				<div class="jumbotron">
 					<p>ITRS, SQL, SPARQL</p>
 					<p>Scala, Jenkins, Quartz</p>
 					<p>Intellij, Jira, Babun</p>
 		</div>
 	</div>
+	</div>
 </div>
+	</div>
+
+
 
 <div class="container">
 	<div id="skills">
@@ -670,14 +678,13 @@
 			<!-- Links -->
 			<ul class="list-unstyled">
 				<li>
-
-					<i class="fas fa-tv" style='font-size:60px'></i>
+					<i class="fas fa-tv" data-toggle="tooltip" title="TV Shows" style='font-size:60px'></i>
 				</li>
 				<li>
-					<i class="fas fa-futbol" style='font-size:60px'></i>
+					<i class="fas fa-futbol" data-toggle="tooltip" title="Playing Football" style='font-size:60px'></i>
 				</li>
 				<li>
-					<i class="fas fa-headphones" style='font-size:60px'></i>
+					<i class="fas fa-headphones" data-toggle="tooltip" title="Listining to Music" style='font-size:60px'></i>
 				</li>
 			</ul>
 
@@ -690,13 +697,13 @@
 			<!-- Links -->
 			<ul class="list-unstyled">
 				<li>
-					<i class="fas fa-desktop" style='font-size:60px'></i>
+					<i class="fas fa-desktop" data-toggle="tooltip" title="Computers & PS4" style='font-size:60px'></i>
 				</li>
 				<li>
-					<i class="fas fa-film" style='font-size:60px'></i>
+					<i class="fas fa-film" data-toggle="tooltip" title="Watching Movies" style='font-size:60px'></i>
 				</li>
 				<li>
-					<i class="fas fa-dumbbell" style='font-size:60px'></i>
+					<i class="fas fa-dumbbell" data-toggle="tooltip" title="Going the Gym" style='font-size:60px'></i>
 				</li>
 
 			</ul>
