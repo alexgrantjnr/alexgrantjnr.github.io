@@ -66,6 +66,13 @@ body
     background-color: #4CAF50;
 }
 
+.search
+{
+  margin-top: 1%;
+  margin-left: 10%;
+
+}
+
 
 
 .nav-pills>li {
@@ -159,6 +166,16 @@ header p
     border-radius: 50%;
     margin-right: 5%;
 }
+
+
+.btn-info:hover
+{
+	color: #fff;
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+    border-radius: 50%;
+    margin-right: 5%;
+}
 	/* btns end*/
 
 
@@ -219,19 +236,34 @@ p
  {
 	font-family: "Courier New", Courier, monospace;
 	font-size:16px;
-	line-height:1.6em;
+  line-height:1.6em;
+  text-align: left;
 }
 
+#education-text p
+{
+  text-align: center;
+}
 a
 {
 	color: white;
 }
 
+.jumbotron p
+{
+  text-align: center;
+}
+
+.bootstrap-used h4
+{
+   text-align: left;
+}
 a:hover,a:focus
 {
 	text-decoration:none;
 	color:#26a5d3;
 }
+
 
 /*Contact page*/
 #contact 
@@ -272,7 +304,6 @@ body{
 .footer {
     background: #222222;
     padding: 40px 0px;
-    margin-left: 1%;
     color: #FFF;
     clear: both;
 }
@@ -309,7 +340,8 @@ body{
 }
 img.logo
 {
-	width: 50%
+  width: 50%;
+  margin-left: 5%;
 }
 
 /*Images*/
@@ -405,14 +437,14 @@ img#Map
 /*results tables*/
 .tab-content
 {
-	text-align: center;
+	
 	margin-left: auto;
 	margin-right: auto;
 }
 
 
 .table {
-	text-align: center;
+
 	margin-left: auto;
 	margin-right: auto;
     width: 60%;
@@ -425,6 +457,10 @@ thead
 	color: white;
 }
 
+tbody
+{
+  text-align: left;
+}
 
 .tab-content>.active 
 {
@@ -702,7 +738,7 @@ img {
 }
 
 .caption-container {
-  text-align: center;
+ 
   background-color: black;
   padding: 2px 16px;
   color: white;

@@ -70,3 +70,8 @@ function showSlides(n) {
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
+
+var domainroot=""
+      function Gsitesearch(curobj){
+      curobj.q.value=""+domainroot+" "+curobj.qfront.value
+      }

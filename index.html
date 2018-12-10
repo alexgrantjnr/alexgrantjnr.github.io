@@ -48,10 +48,16 @@
 <div class="container">
 			<div id="profile-picture">
 				<img src="img/welcome.png" class="img-rounded" alt="Cinque Terre">
-				<h4 id="pic-name">Alex Grant</h4>
+				<h1>Alex Grant</h1>
+				<h4 id="pic-name">Computer Programmer</h4>
 				<div id="welcomeButtons">
 					<button type="button" class="btn btn-success" onclick="window.open('AlexGrantCV.docx')">Download my CV</button>&nbsp;&nbsp;&nbsp;
 				</div>
+				<form class="search" action="http://www.google.com/search" method="get" onSubmit="Gsitesearch(this)">
+              <input name="q" type="hidden"/>
+              <input name="qfront" type="search" required class="searchField" placeholder="Google Search" maxlength="50"/>
+              <input type="submit" class="search-button" value="🔍" />
+            </form>
 			</div>
 		</div>
 		</header>
