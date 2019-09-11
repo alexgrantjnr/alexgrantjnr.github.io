@@ -1,7 +1,7 @@
 body 
 {
   display: block;
-  background: url('../img/welcomebkround.png') no-repeat center center fixed;
+  background-image:url("https://alexgrantjnr.github.io/welcomebkround.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -316,13 +316,15 @@ body{
 }
 
 .footer {
-    background: #222222;
+    background: transparent;
     padding: 40px 0px;
-    color: #FFF;
+    font-weight: bolder;
+    color: black;
     clear: both;
 }
 
 .footer ul{
+  color: black;
     padding:0px;    
 }
 
@@ -333,6 +335,10 @@ body{
 .footer ul li a {
     color: #FFF;
     text-decoration:none;
+}
+
+a{
+  color: black;
 }
 
 .footer span {
