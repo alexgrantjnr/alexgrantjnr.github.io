@@ -1,17 +1,22 @@
 body 
 {
-
+  display: block;
+  background: url('../img/welcomebkround.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   font-family: "Apple" Chancery, cursive; 
   color: #545E6C;
-  background: white;
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
+  
 }
 
 .sub-heading{
-	color: #4CAF50;
+	color: darkgreen;
 }
 
  /* Nav bar */
@@ -82,8 +87,9 @@ body
 /* Nav bar end*/
 .jumbotron
 {
-
-  background-color: #dcefdc;
+  color: black;
+ font-weight: bolder;
+  background-color: transparent;
 }
 
 header h1
@@ -225,6 +231,7 @@ a#myCV
 
 h1,h2,h3,h4 
 {	
+  color: black;
 	font-family: "Arial Black", Gadget, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
@@ -234,7 +241,9 @@ h1,h2,h3,h4
 
 p
  {
-	font-family: "Courier New", Courier, monospace;
+   color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
 	font-size:16px;
   line-height:1.6em;
   text-align: left;
@@ -278,6 +287,11 @@ textarea.form-control
 {
     height:100px;
     
+}
+
+tr{
+  color: black;
+  font-weight: 800;
 }
 
 form  
