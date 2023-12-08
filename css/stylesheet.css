@@ -390,6 +390,19 @@ img#Map {
 }
 /*Education section End*/
 
+/*Work Experiance section*/
+.WE-btn{
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
 /*Font awsome*/
 .fa-tv {
   margin-bottom: 40px;
